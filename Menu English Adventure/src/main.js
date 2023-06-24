@@ -1,8 +1,7 @@
-import {
-    createApp
-} from 'vue';
-
-import App from './App.vue';
+import { createApp } from 'vue'
+import App from './App.vue'
+/*import router from './router/index'*/
+import router from './router'
 
 import './assets/main.css';
 
@@ -26,15 +25,18 @@ import {
     faHouseUser,
     faScrewdriverWrench,
     faFire,
-    faInfo
+    faInfo,
+    faBook,
+    faHeadphones,
+    faEye,
+    faComment,
+    faArrowLeft,
+    faPowerOff
 
 } from '@fortawesome/free-solid-svg-icons';
 
 /* add icons to the library */
-library.add(faUserSecret, faBars, faHouseUser, faScrewdriverWrench, faFire, faInfo);
+library.add(faUserSecret, faBars, faHouseUser, faScrewdriverWrench, faFire, faInfo,faBook,faHeadphones,faEye,faComment,faArrowLeft,faPowerOff);
 
 
-
-createApp(App)
-    .component('font-awesome-icon', FontAwesomeIcon)
-    .mount('#app');
+createApp(App).component('font-awesome-icon', FontAwesomeIcon).use(router).mount('#app')

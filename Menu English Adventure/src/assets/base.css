@@ -10,7 +10,7 @@
     --color-bg: #1e1e2d;
 
     --redondeo: 1rem;
-    --separacion: 2rem;
+    --separacion: 1.0rem;
 }
 
 /* HTML */
@@ -18,31 +18,27 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
     color-scheme: dark;
-    
-    background-image: url('fondo.jpg'); /* Aquí se define el color de fondo con transparencia */
-    background-color: rgba(102, 96, 96, 0.1);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),url('fondo.jpg'); /* Aquí se define el color de fondo con transparencia */
     background-size: cover;
-
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
 }
 
 * {
     /* font-family: var(--fontPrincipal); */
-    color: var(--colorBlancoRelax);
+    color: black;
 }
 
 *,
 *:before,
-*:after {
-    box-sizing: inherit;
-}
+*:after,
 
 /* BODY */
 body {
     font-size: 1.6rem;
-    line-height: 1.5;
-    background-color: var(--color-bg);
+    line-height: 30px;
 }
 
 /* GLOBALES: */
@@ -68,7 +64,7 @@ body {
 /* HEADERS */
 h1 {
     font-size: 3rem;
-}
+	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; }
 
 h2 {
     font-size: 2.6rem;

@@ -1,25 +1,24 @@
-# menu
+# silly
 
-Video del que tomo el ejercicio: https://www.youtube.com/watch?v=aJShMgOmAjE
-
-![](https://github.com/NeelBit/menu-colapsable-en-vue3/blob/master/cap.gif)
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Project Setup
-
-```sh
+## Project setup
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+### Compiles and hot-reloads for development
+```
+npm run serve
 ```
 
-### Compile and Minify for Production
-
-```sh
+### Compiles and minifies for production
+```
 npm run build
 ```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

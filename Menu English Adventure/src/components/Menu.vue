@@ -37,8 +37,6 @@ let collapsed = ref(false);
 
 </aside>
 
-
-
 </template>
 
 <style scoped>
@@ -48,27 +46,27 @@ let collapsed = ref(false);
     height: 100vh;
     transition: width .3s;
     position: fixed;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
 }
 
 .collapsed {
-    width: 8rem;
+    width: 4rem;
     /* height: 4.4rem; */
 }
 
 .expanded {
-    width: 35rem;
+    width: 30rem;
 }
 
 .header {
-    margin: 0 auto;
+    margin: 15px auto;
     display: flex;
     justify-content: end;
 }
 
 .menu-button {
-    width: 4.4rem;
+    
     height: 4.4rem;
     border: none;
     background-color: transparent;
@@ -96,9 +94,9 @@ let collapsed = ref(false);
     text-transform: capitalize;
 }
 
-.menu__item {
+/* .menu__item {
 
-}
+} */
 
 .menu__item ul {
     padding: 0;

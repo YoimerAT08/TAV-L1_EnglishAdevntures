@@ -11,6 +11,7 @@ export default {
     items: [{
             id: 0,
             title: 'Home',
+            permalink: '/',
             // <font-awesome-icon icon="fa-solid fa-house-user" />
             icon: 'fa-house-user',
             onClick() {
@@ -20,8 +21,9 @@ export default {
         {
             id: 1,
             title: 'Listening',
+            permalink: '/listening',
             // <font-awesome-icon icon="fa-regular fa-screwdriver-wrench" />
-            icon: './public/1.ico',
+            icon: 'fa-headphones',
             onClick() {
                 console.log('Listening');
             }
@@ -29,8 +31,9 @@ export default {
         {
             id: 2,
             title: 'Speaking',
+            permalink: '/speaking',
             // <font-awesome-icon icon="fa-solid fa-fire" />
-            icon: 'fa-firel',
+            icon: 'fa-comment',
             onClick() {
                 console.log('Speaking');
             }
@@ -38,8 +41,9 @@ export default {
         {
             id: 3,
             title: 'Reading',
+            permalink: '/reading',
             // <font-awesome-icon icon="fa-solid fa-info" />
-            icon: 'fa-infol',
+            icon: 'fa-eye',
             onClick() {
                 console.log('Reading');
             }
@@ -47,8 +51,9 @@ export default {
         {
             id: 4,
             title: 'Writing',
+            permalink: '/writing',
             // <font-awesome-icon icon="fa-solid fa-info" />
-            icon: 'fa-info/S',
+            icon: 'fa-book',
             onClick() {
                 console.log('Writing');
             }
@@ -56,8 +61,9 @@ export default {
         {
             id: 5,
             title: 'Help',
+            permalink: '/help',
             // <font-awesome-icon icon="fa-solid fa-info" />
-            icon: 'fa-sharp fa-solid fa-comment',
+            icon: 'fa-info',
             onClick() {
                 console.log('Help');
             }

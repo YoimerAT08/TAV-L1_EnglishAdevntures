@@ -1,12 +1,11 @@
 <script setup>
-
+import { defineProps } from "vue"; 
 const props = defineProps(['item', 'collapsed']);
 
 </script>
 
 <template>
-
-<a href="#" @click.prevent="props.item.onClick" >
+<router-link :to= props.item.permalink  >
     <div class="item">
         <div class="item__icon">
             <font-awesome-icon :icon="['fa-solid', props.item.icon]" size="2x" />
@@ -16,7 +15,7 @@ const props = defineProps(['item', 'collapsed']);
             {{ props.item.title }}
         </div>
     </div>
-</a>
+</router-link>
 
 </template>
 
@@ -25,12 +24,16 @@ const props = defineProps(['item', 'collapsed']);
 a {
     text-decoration: none;
     display: block;
-    margin: var(--separacion) 0;
+    margin: 0px;
+    width: 50%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 10px;
 }
-
 .item:hover .item__title{
-    color: var(--colorNegroRelax);
-    background-color: var(--colorBlancoRelax);
+    color: black;
+    background-color: #3498db;
 }
 
 
@@ -38,20 +41,23 @@ a {
 .item {
     display: flex;
     align-items: center;
-    padding: var(--separacion);
-    gap: var(--separacion);
+    padding: 10px 5px ;
+    gap: 10px;
 }
 
 .item__icon {
-    width: 4.4rem;
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 5px;
+    color: black;
 }
 
 .item__title {
-    padding: .5rem;
+    padding: 5px 16px;
     border-radius: var(--redondeo);
+
 }
 
 
