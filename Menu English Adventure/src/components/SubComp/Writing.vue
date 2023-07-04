@@ -1,3 +1,6 @@
+<script setup>
+    import Unit1 from '../Unit1';
+</script>
 <template>
     <div class="titulo">
         <div class="titulo-container">
@@ -9,7 +12,7 @@
                 let's start with writing!
             </h2>
             <div class="unidades">
-                <a class="unit1"><span>Unit 1</span><div class="liquid"></div></a>
+                <a class="unit1" href="./Unit1.vue" @click.prevent="Unit1.Unidad.onClick"><span>Unit 1</span><div class="liquid"></div></a>
                 <a class="unit2"><span>Unit 2</span><div class="liquid"></div></a>
                 <a class="unit3"><span>Unit 3</span><div class="liquid"></div></a>
                 <a class="unit4"><span>Unit 4</span><div class="liquid"></div></a>
@@ -24,8 +27,6 @@
         </div>
     
 </template> 
-
-
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 template{

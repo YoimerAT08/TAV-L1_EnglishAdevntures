@@ -6,6 +6,7 @@ import Speaking from './components/SubComp/Speaking.vue';
 import Reading from './components/SubComp/Reading';
 import writing from './components/SubComp/Writing.vue';
 import Help from './components/SubComp/Help.vue';
+import Unit1 from './components/SubComp/Unit1.vue';
 
 const routes = [ 
     { path: '/', name: 'inicio', component: InicioComp },
@@ -14,6 +15,7 @@ const routes = [
     { path: '/reading', name: 'reading', component: Reading},
     { path: '/writing', name: 'writing', component: writing},
     { path: '/help', name: 'help', component: Help},
+    { path: '/Unit1', name: 'Unit1', component: Unit1},
 ]
 
 const router = createRouter({ history: createWebHistory(process.env.BASE_URL), routes });

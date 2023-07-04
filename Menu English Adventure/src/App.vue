@@ -4,7 +4,6 @@ import { ref } from 'vue';
 import MenuItem from './components/MenuItem.vue';
 import menuItems from './components/menuItems';
 
-
 // booleano para contraer o expandir menú
 let collapsed = ref(true);
 

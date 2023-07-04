@@ -16,8 +16,8 @@
             </div>
     </div>
     <div class="progreso">
-           <div class="imagen"><img src="./G183747726.jpg" class="imagenN"></div>
-           <div class="text"><p><b>WHAT WE BELIEVE</b><br>Reading in English is of great importance due to its many benefits. It helps develop language skills, improve reading comprehension, expand knowledge and culture, stimulate critical thinking and imagination, and strengthen writing and speaking skills. Through reading, vocabulary is acquired, grammar is improved, different texts are understood, and the diversity of themes and literary genres is explored. It is a fundamental tool for effective learning and successful communication in English.</p></div>
+           <div class="imagen"><img src="./lee.jpeg" class="imagenN"></div>
+           <div class="text"><p><b>WHAT WE BELIEVE</b><br>The skill of reading in the English language is important for several reasons. Firstly, English is the most widely spoken language in the world, and proficiency in reading English provides access to a vast amount of information and knowledge. Many academic resources, research papers, and scientific journals are predominantly available in English, making it essential for students and professionals in various fields. Additionally, English is the primary language of international communication, business, and diplomacy</p></div>
            <div class="retroceder">
                 <button class="señal"></button>
             </div>
@@ -220,6 +220,7 @@ a:hover .liquid{
     align-items: center;
     display: flex;
     border-radius: 20px;
+    left: 10px;
 }
 .progreso .imagen .imagenN{
     position: relative;

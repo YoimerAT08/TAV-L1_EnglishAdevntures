@@ -16,8 +16,8 @@
             </div>
     </div>
     <div class="progreso">
-           <div class="imagen"><img src="./speaking.jpg" class="imagenN"></div>
-           <div class="text"><p><b>WHAT WE BELIEVE</b><br>Speaking in English is important because it allows effective and active communication in the language. Helps develop fluency, correct pronunciation, confidence and the ability to express ideas and opinions. Speaking English is essential for interacting with native speakers, participating in conversations and presentations, and developing interpersonal skills in personal and professional contexts.</p></div>
+           <div class="imagen"><img src="./fto.jpeg" class="imagenN"></div>
+           <div class="text"><p><b>WHAT WE BELIEVE</b><br>The skill of speaking in the English language is crucial for several reasons. Firstly, English is the lingua franca of the modern world, facilitating communication and interaction in various domains such as business, travel, and academia. Proficiency in spoken English enables individuals to engage in international conversations, build relationships, and collaborate with people from diverse backgrounds. Secondly, effective verbal communication in English is often a requirement in professional settings.</p></div>
            <div class="retroceder">
                 <button class="señal"></button>
             </div>
@@ -215,11 +215,12 @@ a:hover .liquid{
 }
 .progreso .imagen{
     position: relative;
-    width: 450px;
+    width: 400px;
     height: 280px;
     align-items: center;
     display: flex;
     border-radius: 20px;
+    left: 10px;
 }
 .progreso .imagen .imagenN{
     position: relative;
